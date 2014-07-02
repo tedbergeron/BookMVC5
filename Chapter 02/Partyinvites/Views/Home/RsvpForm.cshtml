@@ -9,11 +9,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css" />
+    <!-- as of MVC 4 Razor detects ~/ and auto inserts (at)Href or (at)Url call for you. -->
     <title>RsvpForm</title>
 </head>
 <body>
     <div> 
         @using (Html.BeginForm()) { 
+            @Html.ValidationSummary()
             <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
             <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
             <p>Your phone: @Html.TextBoxFor(x => x.Phone)</p>

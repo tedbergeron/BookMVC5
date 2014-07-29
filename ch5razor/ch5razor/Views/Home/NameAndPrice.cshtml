@@ -1,0 +1,14 @@
+﻿@model ch5razor.Models.Product
+
+@{
+    ViewBag.Title = "NameAndPrice";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+<div style="background-color: beige;">
+<h2>NameAndPrice</h2>
+<ul>
+    <li>The product name is @Model.Name and it costs $@Model.Price</li>
+</ul>
+
+</div>

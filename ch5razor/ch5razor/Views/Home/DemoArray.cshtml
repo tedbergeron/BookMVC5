@@ -1,0 +1,32 @@
+﻿@using ch5razor.Models
+@model Product[]
+
+@{
+    ViewBag.Title = "DemoArray";
+}
+
+<h2>Demo Array</h2>
+@if (Model.Length > 0)
+{ 
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Product p in Model)
+            { 
+                <tr>
+                    <td>@p.Name</td>
+                    <td>$ @p.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else { 
+    <h2>No product data</h2>
+}
+

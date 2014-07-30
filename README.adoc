@@ -1,0 +1,6 @@
+= Code exersizes from book
+
+== Pro ASP.NET MVC 5
+by Freeman
+
+Book link: link:http://www.apress.com/9781430265290[Pro ASP.NET MVC 5] has downloadable source code for each chapter.

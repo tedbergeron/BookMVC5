@@ -19,7 +19,11 @@ namespace EssentialTools.Controllers
                                          new Product {Name = "Corner flag", Category = "Soccer", Price = 34.95M}
                                      };
 
-        public HomeController(IValueCalculator calcParam)
+        // see debug Output:
+        // Instance 1 created
+        // Instance 2 created
+        //public HomeController(IValueCalculator calcParam)     // adding second implementation of the IValueCalculator interface from Ninject to test debug counter
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
         {
             calc = calcParam;
         }

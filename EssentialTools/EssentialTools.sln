@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools.csproj", "{EDCD4FE0-04A2-43F5-AF34-6B9DBB4578A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools.Tests", "EssentialTools.Tests\EssentialTools.Tests.csproj", "{2F220672-018E-4FED-A2D0-B8A95A6B300C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{EDCD4FE0-04A2-43F5-AF34-6B9DBB4578A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCD4FE0-04A2-43F5-AF34-6B9DBB4578A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCD4FE0-04A2-43F5-AF34-6B9DBB4578A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F220672-018E-4FED-A2D0-B8A95A6B300C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F220672-018E-4FED-A2D0-B8A95A6B300C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F220672-018E-4FED-A2D0-B8A95A6B300C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F220672-018E-4FED-A2D0-B8A95A6B300C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

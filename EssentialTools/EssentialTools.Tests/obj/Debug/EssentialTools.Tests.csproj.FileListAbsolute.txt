@@ -22,3 +22,6 @@ C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools
 C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\obj\Debug\EssentialTools.Tests.csprojResolveAssemblyReference.cache
 C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\obj\Debug\EssentialTools.Tests.dll
 C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\obj\Debug\EssentialTools.Tests.pdb
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\bin\Debug\EssentialTools.Tests.dll.config
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\bin\Debug\Moq.dll
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\EssentialTools\EssentialTools.Tests\bin\Debug\Moq.xml

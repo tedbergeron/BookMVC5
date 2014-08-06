@@ -16,3 +16,8 @@ c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\Sp
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml

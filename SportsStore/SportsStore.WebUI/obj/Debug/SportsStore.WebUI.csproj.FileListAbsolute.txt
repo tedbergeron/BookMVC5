@@ -30,3 +30,7 @@ c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\Sp
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 c:\users\tbergeron\documents\visual studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\tbergeron\Documents\Visual Studio 2012\Projects\BookMVC5\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml

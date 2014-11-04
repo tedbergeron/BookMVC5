@@ -35,6 +35,7 @@ uses the generic EditorForModel based on model for cheap results
                         @Html.TextBox(property.PropertyName, null,
                         new { @class = "form-control" })
                     }
+                    @Html.ValidationMessage(property.PropertyName)
                 </div>
             }
         </div>

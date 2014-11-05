@@ -128,5 +128,29 @@ namespace SportsStore.UnitTests
 
         }
 
+        [TestMethod]
+        public void Can_Delete_Valid_Products()
+        {
+            // Arrange - create a product
+            Product prod = new Product { ProductID = 2, Name = "Test" };
+
+            // Arrange - create the mock repo
+            Mock<IProductsRepository> mock = new Mock<IProductsRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[] {
+                new Product {ProductID = 1, Name = "P1"},
+                prod,
+                new Product {ProductID = 3, Name = "P3"},
+            });
+
+            // Arrange - create the controller
+            AdminController target = new AdminController(mock.Object);
+
+            // Act - delete it
+            target.Delete(prod.ProductID);
+
+            // Assert - ensure the repo delete method was called with the correct product
+            mock.Verify(m => m.DeleteProduct(prod.ProductID));
+        }
+
     }
 }

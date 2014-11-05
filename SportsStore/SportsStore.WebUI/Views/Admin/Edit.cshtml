@@ -22,7 +22,7 @@ uses the generic EditorForModel based on model for cheap results
         <h3>Edit @Model.Name</h3>
     </div>
 
-    @using (Html.BeginForm()) { 
+    @using (Html.BeginForm("Edit", "Admin")) { 
     <div class="panel-body">
             @Html.HiddenFor(m => m.ProductID)
             @foreach (var property in ViewData.ModelMetadata.Properties) {
